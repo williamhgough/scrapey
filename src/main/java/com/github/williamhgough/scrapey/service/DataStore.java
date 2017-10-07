@@ -5,5 +5,5 @@ import com.github.williamhgough.scrapey.model.Item;
 import java.util.List;
 
 public interface DataStore {
-    List<Item> getAllItems();
+    List<Item> fetchAllItems();
 }
