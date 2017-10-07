@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scrapey.iml" filepath="$PROJECT_DIR$/.idea/modules/scrapey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scrapey_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scrapey_main.iml" group="scrapey" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scrapey_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scrapey_test.iml" group="scrapey" />
     </modules>
   </component>
 </project>
