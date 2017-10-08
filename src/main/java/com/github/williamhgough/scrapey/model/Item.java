@@ -1,17 +1,14 @@
 package com.github.williamhgough.scrapey.model;
 
-public class Item {
+import java.io.Serializable;
+
+public class Item implements Serializable {
     private String title;
     private String description;
     private int unitPrice;
     private int kcalPer100g;
 
-    public Item(String title, String description, int unitPrice, int kcalPer100g) {
-        this.title = title;
-        this.description = description;
-        this.unitPrice = unitPrice;
-        this.kcalPer100g = kcalPer100g;
-    }
+    public Item() {}
 
     public String getTitle() {
         return title;
